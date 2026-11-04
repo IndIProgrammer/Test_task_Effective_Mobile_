@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -u
+
 LOG_FILE="/var/log/monitoring.log"
 PROCESS_NAME="test"
 URL="https://test.com/monitoring/test/api"
